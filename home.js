@@ -9,7 +9,7 @@ alert("Note!!!!    We assumed here that the Ace is worth 11 and there is no card
 
 var arr={
     "scores":{"0":2,"1":3,"2":4,"3":5,"4":6,"5":7,"6":8,"7":9,"8":10,"9":11,"10":12,"11":13,"12":14},
-    "images":{0:"images/2.png",1:"images/3.png",2:"images/4.png",3:"images/5.png",4:"images/6.png",5:"images/7.png",6:"images/8.png",7:"images/9.png",8:"images/10.png",9:"images/A.png",10:"images/J.png",11:"images/K.png",12:"images/Q.png"},
+    "images":{0:"2.png",1:"3.png",2:"4.png",3:"5.png",4:"6.png",5:"7.png",6:"8.png",7:"9.png",8:"10.png",9:"A.png",10:"J.png",11:"K.png",12:"Q.png"},
 }
 
 // Important variables
@@ -24,9 +24,9 @@ let flag=0;
 
 //Sounds used when User wins or chose a card or lose
 
-let swich=new  Audio('sounds/swish.m4a');// Hit sound
-let cash= new Audio('sounds/cash.mp3');// Wining Sound
-let awww= new Audio('sounds/aww.mp3');// losing Sound
+let swich=new  Audio('swish.m4a');// Hit sound
+let cash= new Audio('cash.mp3');// Wining Sound
+let awww= new Audio('aww.mp3');// losing Sound
 
 //Function used for generating random cards
 
